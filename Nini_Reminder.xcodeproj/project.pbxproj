@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C8A7A9128C3F51F009B5564 /* Nini_ReminderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7A9028C3F51F009B5564 /* Nini_ReminderApp.swift */; };
+		3C8A7A9328C3F51F009B5564 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7A9228C3F51F009B5564 /* ContentView.swift */; };
+		3C8A7A9528C3F525009B5564 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A7A9428C3F525009B5564 /* Assets.xcassets */; };
+		3C8A7A9828C3F525009B5564 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C8A7A9728C3F525009B5564 /* Preview Assets.xcassets */; };
+		3C8A7AA228C3F525009B5564 /* Nini_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7AA128C3F525009B5564 /* Nini_ReminderTests.swift */; };
+		3C8A7AAC28C3F525009B5564 /* Nini_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7AAB28C3F525009B5564 /* Nini_ReminderUITests.swift */; };
+		3C8A7AAE28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7AAD28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C8A7A9E28C3F525009B5564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8A7A8528C3F51F009B5564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8A7A8C28C3F51F009B5564;
+			remoteInfo = Nini_Reminder;
+		};
+		3C8A7AA828C3F525009B5564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C8A7A8528C3F51F009B5564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C8A7A8C28C3F51F009B5564;
+			remoteInfo = Nini_Reminder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C8A7A8D28C3F51F009B5564 /* Nini_Reminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nini_Reminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8A7A9028C3F51F009B5564 /* Nini_ReminderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nini_ReminderApp.swift; sourceTree = "<group>"; };
+		3C8A7A9228C3F51F009B5564 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C8A7A9428C3F525009B5564 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C8A7A9728C3F525009B5564 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C8A7A9D28C3F525009B5564 /* Nini_ReminderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nini_ReminderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8A7AA128C3F525009B5564 /* Nini_ReminderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nini_ReminderTests.swift; sourceTree = "<group>"; };
+		3C8A7AA728C3F525009B5564 /* Nini_ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nini_ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8A7AAB28C3F525009B5564 /* Nini_ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nini_ReminderUITests.swift; sourceTree = "<group>"; };
+		3C8A7AAD28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nini_ReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C8A7A8A28C3F51F009B5564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8A7A9A28C3F525009B5564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8A7AA428C3F525009B5564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C8A7A8428C3F51F009B5564 = {
+			isa = PBXGroup;
+			children = (
+				3C8A7A8F28C3F51F009B5564 /* Nini_Reminder */,
+				3C8A7AA028C3F525009B5564 /* Nini_ReminderTests */,
+				3C8A7AAA28C3F525009B5564 /* Nini_ReminderUITests */,
+				3C8A7A8E28C3F51F009B5564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C8A7A8E28C3F51F009B5564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A7A8D28C3F51F009B5564 /* Nini_Reminder.app */,
+				3C8A7A9D28C3F525009B5564 /* Nini_ReminderTests.xctest */,
+				3C8A7AA728C3F525009B5564 /* Nini_ReminderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C8A7A8F28C3F51F009B5564 /* Nini_Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A7A9028C3F51F009B5564 /* Nini_ReminderApp.swift */,
+				3C8A7A9228C3F51F009B5564 /* ContentView.swift */,
+				3C8A7A9428C3F525009B5564 /* Assets.xcassets */,
+				3C8A7A9628C3F525009B5564 /* Preview Content */,
+			);
+			path = Nini_Reminder;
+			sourceTree = "<group>";
+		};
+		3C8A7A9628C3F525009B5564 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A7A9728C3F525009B5564 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C8A7AA028C3F525009B5564 /* Nini_ReminderTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A7AA128C3F525009B5564 /* Nini_ReminderTests.swift */,
+			);
+			path = Nini_ReminderTests;
+			sourceTree = "<group>";
+		};
+		3C8A7AAA28C3F525009B5564 /* Nini_ReminderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8A7AAB28C3F525009B5564 /* Nini_ReminderUITests.swift */,
+				3C8A7AAD28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift */,
+			);
+			path = Nini_ReminderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C8A7A8C28C3F51F009B5564 /* Nini_Reminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8A7AB128C3F525009B5564 /* Build configuration list for PBXNativeTarget "Nini_Reminder" */;
+			buildPhases = (
+				3C8A7A8928C3F51F009B5564 /* Sources */,
+				3C8A7A8A28C3F51F009B5564 /* Frameworks */,
+				3C8A7A8B28C3F51F009B5564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nini_Reminder;
+			productName = Nini_Reminder;
+			productReference = 3C8A7A8D28C3F51F009B5564 /* Nini_Reminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C8A7A9C28C3F525009B5564 /* Nini_ReminderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8A7AB428C3F525009B5564 /* Build configuration list for PBXNativeTarget "Nini_ReminderTests" */;
+			buildPhases = (
+				3C8A7A9928C3F525009B5564 /* Sources */,
+				3C8A7A9A28C3F525009B5564 /* Frameworks */,
+				3C8A7A9B28C3F525009B5564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8A7A9F28C3F525009B5564 /* PBXTargetDependency */,
+			);
+			name = Nini_ReminderTests;
+			productName = Nini_ReminderTests;
+			productReference = 3C8A7A9D28C3F525009B5564 /* Nini_ReminderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3C8A7AA628C3F525009B5564 /* Nini_ReminderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8A7AB728C3F525009B5564 /* Build configuration list for PBXNativeTarget "Nini_ReminderUITests" */;
+			buildPhases = (
+				3C8A7AA328C3F525009B5564 /* Sources */,
+				3C8A7AA428C3F525009B5564 /* Frameworks */,
+				3C8A7AA528C3F525009B5564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C8A7AA928C3F525009B5564 /* PBXTargetDependency */,
+			);
+			name = Nini_ReminderUITests;
+			productName = Nini_ReminderUITests;
+			productReference = 3C8A7AA728C3F525009B5564 /* Nini_ReminderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C8A7A8528C3F51F009B5564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					3C8A7A8C28C3F51F009B5564 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					3C8A7A9C28C3F525009B5564 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3C8A7A8C28C3F51F009B5564;
+					};
+					3C8A7AA628C3F525009B5564 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 3C8A7A8C28C3F51F009B5564;
+					};
+				};
+			};
+			buildConfigurationList = 3C8A7A8828C3F51F009B5564 /* Build configuration list for PBXProject "Nini_Reminder" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C8A7A8428C3F51F009B5564;
+			productRefGroup = 3C8A7A8E28C3F51F009B5564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C8A7A8C28C3F51F009B5564 /* Nini_Reminder */,
+				3C8A7A9C28C3F525009B5564 /* Nini_ReminderTests */,
+				3C8A7AA628C3F525009B5564 /* Nini_ReminderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C8A7A8B28C3F51F009B5564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8A7A9828C3F525009B5564 /* Preview Assets.xcassets in Resources */,
+				3C8A7A9528C3F525009B5564 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8A7A9B28C3F525009B5564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8A7AA528C3F525009B5564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C8A7A8928C3F51F009B5564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8A7A9328C3F51F009B5564 /* ContentView.swift in Sources */,
+				3C8A7A9128C3F51F009B5564 /* Nini_ReminderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8A7A9928C3F525009B5564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8A7AA228C3F525009B5564 /* Nini_ReminderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C8A7AA328C3F525009B5564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C8A7AAE28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift in Sources */,
+				3C8A7AAC28C3F525009B5564 /* Nini_ReminderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C8A7A9F28C3F525009B5564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8A7A8C28C3F51F009B5564 /* Nini_Reminder */;
+			targetProxy = 3C8A7A9E28C3F525009B5564 /* PBXContainerItemProxy */;
+		};
+		3C8A7AA928C3F525009B5564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C8A7A8C28C3F51F009B5564 /* Nini_Reminder */;
+			targetProxy = 3C8A7AA828C3F525009B5564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C8A7AAF28C3F525009B5564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3C8A7AB028C3F525009B5564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C8A7AB228C3F525009B5564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nini_Reminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dawid-Popek.Nini-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C8A7AB328C3F525009B5564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Nini_Reminder/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dawid-Popek.Nini-Reminder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3C8A7AB528C3F525009B5564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dawid-Popek.Nini-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nini_Reminder.app/Nini_Reminder";
+			};
+			name = Debug;
+		};
+		3C8A7AB628C3F525009B5564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dawid-Popek.Nini-ReminderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nini_Reminder.app/Nini_Reminder";
+			};
+			name = Release;
+		};
+		3C8A7AB828C3F525009B5564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dawid-Popek.Nini-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nini_Reminder;
+			};
+			name = Debug;
+		};
+		3C8A7AB928C3F525009B5564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Dawid-Popek.Nini-ReminderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Nini_Reminder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C8A7A8828C3F51F009B5564 /* Build configuration list for PBXProject "Nini_Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8A7AAF28C3F525009B5564 /* Debug */,
+				3C8A7AB028C3F525009B5564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8A7AB128C3F525009B5564 /* Build configuration list for PBXNativeTarget "Nini_Reminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8A7AB228C3F525009B5564 /* Debug */,
+				3C8A7AB328C3F525009B5564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8A7AB428C3F525009B5564 /* Build configuration list for PBXNativeTarget "Nini_ReminderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8A7AB528C3F525009B5564 /* Debug */,
+				3C8A7AB628C3F525009B5564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8A7AB728C3F525009B5564 /* Build configuration list for PBXNativeTarget "Nini_ReminderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C8A7AB828C3F525009B5564 /* Debug */,
+				3C8A7AB928C3F525009B5564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C8A7A8528C3F51F009B5564 /* Project object */;
+}
