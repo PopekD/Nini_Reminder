@@ -7,15 +7,22 @@
 
 import SwiftUI
 
-struct ContentView: View {
+
+struct Nini_Reminder: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            Color(UIColor.darkGray).edgesIgnoringSafeArea(.all)
+        VStack(spacing: 40){
+            Button("CLICK ME!") {
+                instance.requestAuthorization()
+            }
+        }
+        }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Nini_Reminder_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Nini_Reminder()
     }
 }

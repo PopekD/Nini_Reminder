@@ -7,11 +7,13 @@
 
 import SwiftUI
 
+
+
 @main
 struct Nini_ReminderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Nini_Reminder()
         }
     }
 }
