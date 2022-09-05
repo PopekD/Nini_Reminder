@@ -7,7 +7,7 @@
 
 import SwiftUI
 import UserNotifications
-
+import Foundation
 
 
 class NotyficationManager{
@@ -21,7 +21,10 @@ static let instance = NotyficationManager()
             content.subtitle = "Good Morning Nini, please take your blood pressure pill please :))"
             content.sound = .default
             content.badge = 1
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 86400.0, repeats: false)
+        var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = 8
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
             
             let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
             UNUserNotificationCenter.current().add(request)
@@ -32,7 +35,13 @@ static let instance = NotyficationManager()
             content.subtitle = "Good Morning Nini, please take your Iron pill as well, love you."
             content.sound = .default
             content.badge = 2
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 172800.0, repeats: false)
+        
+        let date = Date()
+        let twodays = date.addingTimeInterval( 2*(24*60*60) )
+        let end =  Calendar.current.date(bySettingHour: 8, minute: 0, second: 0, of: twodays)
+        let enddate = Calendar.current.dateComponents([.year, .month, .day, .hour, .minute, .second], from: end!)
+        
+        let trigger = UNCalendarNotificationTrigger(dateMatching: enddate, repeats: true)
             
             let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
             UNUserNotificationCenter.current().add(request)
