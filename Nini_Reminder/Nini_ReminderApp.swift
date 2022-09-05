@@ -8,7 +8,6 @@
 import SwiftUI
 
 
-
 @main
 struct Nini_ReminderApp: App {
     var body: some Scene {

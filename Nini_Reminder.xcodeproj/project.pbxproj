@@ -14,7 +14,9 @@
 		3C8A7AA228C3F525009B5564 /* Nini_ReminderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7AA128C3F525009B5564 /* Nini_ReminderTests.swift */; };
 		3C8A7AAC28C3F525009B5564 /* Nini_ReminderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7AAB28C3F525009B5564 /* Nini_ReminderUITests.swift */; };
 		3C8A7AAE28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7AAD28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift */; };
-		3C8A7ABB28C3FE9C009B5564 /* NotyficcationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7ABA28C3FE9B009B5564 /* NotyficcationManager.swift */; };
+		3C8A7ABB28C3FE9C009B5564 /* NotyficationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C8A7ABA28C3FE9B009B5564 /* NotyficationManager.swift */; };
+		3CF108F428C4C5010003DD3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF108F328C4C5010003DD3C /* Main.storyboard */; };
+		3CF108F828C500130003DD3C /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF108F728C500130003DD3C /* ContainerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,9 @@
 		3C8A7AA728C3F525009B5564 /* Nini_ReminderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Nini_ReminderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C8A7AAB28C3F525009B5564 /* Nini_ReminderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nini_ReminderUITests.swift; sourceTree = "<group>"; };
 		3C8A7AAD28C3F525009B5564 /* Nini_ReminderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nini_ReminderUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		3C8A7ABA28C3FE9B009B5564 /* NotyficcationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotyficcationManager.swift; sourceTree = "<group>"; };
+		3C8A7ABA28C3FE9B009B5564 /* NotyficationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotyficationManager.swift; sourceTree = "<group>"; };
+		3CF108F328C4C5010003DD3C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3CF108F728C500130003DD3C /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 		3C8A7A8F28C3F51F009B5564 /* Nini_Reminder */ = {
 			isa = PBXGroup;
 			children = (
-				3C8A7ABA28C3FE9B009B5564 /* NotyficcationManager.swift */,
+				3CF108F728C500130003DD3C /* ContainerViewController.swift */,
+				3CF108F328C4C5010003DD3C /* Main.storyboard */,
+				3C8A7ABA28C3FE9B009B5564 /* NotyficationManager.swift */,
 				3C8A7A9028C3F51F009B5564 /* Nini_ReminderApp.swift */,
 				3C8A7A9228C3F51F009B5564 /* ContentView.swift */,
 				3C8A7A9428C3F525009B5564 /* Assets.xcassets */,
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3CF108F428C4C5010003DD3C /* Main.storyboard in Resources */,
 				3C8A7A9828C3F525009B5564 /* Preview Assets.xcassets in Resources */,
 				3C8A7A9528C3F525009B5564 /* Assets.xcassets in Resources */,
 			);
@@ -260,8 +267,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C8A7ABB28C3FE9C009B5564 /* NotyficcationManager.swift in Sources */,
+				3C8A7ABB28C3FE9C009B5564 /* NotyficationManager.swift in Sources */,
 				3C8A7A9328C3F51F009B5564 /* ContentView.swift in Sources */,
+				3CF108F828C500130003DD3C /* ContainerViewController.swift in Sources */,
 				3C8A7A9128C3F51F009B5564 /* Nini_ReminderApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +436,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -456,6 +466,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
