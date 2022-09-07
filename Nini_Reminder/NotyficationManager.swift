@@ -49,8 +49,8 @@ static let instance = NotyficationManager()
     
     func scheduleEveryDayPill() {
         let content = UNMutableNotificationContent()
-        content.title = "Take your bloodpressure pill"
-        content.subtitle = "Good Morning Nini, please take your blood pressure pill please :))"
+        content.title = "GOOD MORNING NINI! <3"
+        content.subtitle = "Good Morning, take your blood pressure pill please. HAVE A GREAT DAY :))"
         content.sound = .default
         content.badge = 1
         var dateComponents = DateComponents()
@@ -64,22 +64,42 @@ static let instance = NotyficationManager()
     func scheduleEveryHourReminder(){
         let content = UNMutableNotificationContent()
         content.title = "Hello Nini"
-        content.subtitle = "I just want to remind you that I love you very much <3 "
+        content.subtitle = "Wish you a good afternoon, Love you very much <3"
         content.sound = .default
         content.badge = 1
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 3*(60*60), repeats: true)
+        var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = 13
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request)
     }
     
     func scheduleEveryDayAfterNoon(){
         let content = UNMutableNotificationContent()
-        content.title = "Hello Nini"
-        content.subtitle = "A little reminder that you're the prettiest girl in the world <3"
+        content.title = "Reminder"
+        content.subtitle = "A little reminder that you're the prettiest girl in the world, wish you a great evening <3"
         content.sound = .default
         content.badge = 1
-
-        let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5*(60*60), repeats: true)
+        var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = 19
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
+        let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
+        UNUserNotificationCenter.current().add(request)
+    }
+    
+    func scheduleEveryDayNight(){
+        let content = UNMutableNotificationContent()
+        content.title = "Good Night"
+        content.subtitle = "Godd Night, sweet dreams and remember that I love you very much. Sleep well :))"
+        content.sound = .default
+        content.badge = 1
+        var dateComponents = DateComponents()
+        dateComponents.calendar = Calendar.current
+        dateComponents.hour = 22
+        dateComponents.minute = 30
+        let trigger = UNCalendarNotificationTrigger(dateMatching: dateComponents, repeats: true)
         let request = UNNotificationRequest(identifier: UUID().uuidString, content: content, trigger: trigger)
         UNUserNotificationCenter.current().add(request)
     }

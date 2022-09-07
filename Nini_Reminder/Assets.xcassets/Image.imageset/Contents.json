@@ -1,12 +1,11 @@
 {
   "images" : [
     {
-      "filename" : "image.png",
+      "filename" : "heart.png",
       "idiom" : "iphone",
       "scale" : "1x"
     },
     {
-      "filename" : "image@2x.png",
       "idiom" : "iphone",
       "scale" : "2x"
     },
