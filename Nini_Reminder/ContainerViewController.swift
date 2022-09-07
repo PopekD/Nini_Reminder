@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import UserNotifications
 
 class ContainerViewController: UIViewController {
     
@@ -20,19 +20,14 @@ class ContainerViewController: UIViewController {
 
     
     @IBAction func ask_for_permission(_ sender: Any) {
-        NotyficationManager.instance.requestAuthorization()
-        start_notyfication_button.isEnabled = true
-        start_button.isEnabled = false
+        NotyficationManager.instance.requestAuthorization(x: start_button, y: start_notyfication_button)
     }
     
     @IBAction func Pill_Every_day(_ sender: Any) {
        NotyficationManager.instance.scheduleEveryDayPill()
+       NotyficationManager.instance.scheduleEveryHourReminder()
+        NotyficationManager.instance.scheduleEveryDayAfterNoon()
         start_notyfication_button.isEnabled = false
         
     }
-    
-    @IBAction func Pill_Second_day(_ sender: Any) {
-        NotyficationManager.instance.scheduleEverySecondDayPill()
-    }
-    
 }
