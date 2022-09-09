@@ -36,11 +36,25 @@ class ContainerViewController: UIViewController {
         guard let second_vc = storyboard?.instantiateViewController(withIdentifier: "second_VC") as? SecondViewController else {
             return
         }
-        present(second_vc, animated: true)
+        present(second_vc, animated: true, completion: nil)
     }
     
 }
 
 class SecondViewController: UIViewController {
+    
+    @IBOutlet weak var addButton: UIButton!
+    @IBAction func addButtonPress(_ sender: Any) {
+            guard let add_VC = storyboard?.instantiateViewController(withIdentifier: "add_vc") as? AddViewController else {
+            return
+            }
+            present(add_VC, animated: true, completion: nil)
+        
+    }
+}
+
+class AddViewController: UIViewController{
+    @IBOutlet weak var datePicker: UIDatePicker!
+    
     
 }
